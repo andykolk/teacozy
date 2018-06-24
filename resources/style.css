@@ -57,11 +57,16 @@ a:link {
 
 .ourmission {
   padding-top: 70px;
-  border: 1px solid white;
   display: flex;
+  justify-content: center;
   width: 1200px;
   height: 700px;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.ourmission .text {
+  background-color: black;
+  height: 120px;
 }
