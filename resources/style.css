@@ -2,14 +2,15 @@
 
 h4 {
   font-family: Helvetica;
-  font-size: 22px;
   opacity: 0.9;
+  font-size: 22px;
   color: seashell;
 }
 
 h2 {
   font-family: Helvetica;
   opacity: 0.9;
+  font-size: 26px;
   color: seashell;
 }
 
@@ -97,15 +98,27 @@ a:link {
 
 /* Tea of the Month section */
 
-.teamonth .teatext {
+.teamonth {
+  padding-top: 50px;
+  max-width: 1000px;
+  max-height: 1000px;
+}
+
+.thumbnails {
+  flex-wrap: wrap;
+  display: inline-flex;
+  flex-direction: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.teatext {
   display: flex;
   flex-direction: column;
   width: 1000px;
   justify-content: center;
   align-items: center;
-  border: 1px solid white;
 }
-
 
 .teatext .one {
   display: flex;
@@ -119,4 +132,84 @@ a:link {
   justify-content: center;
   align-items: center;
   height: 50px;
+}
+
+.fallberry {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 260px;
+  width: 300px;
+}
+
+.fallberrytext {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.spicedrum {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 260px;
+  width: 300px;
+}
+
+.spicedrumtext {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.donuts {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 260px;
+  width: 300px;
+}
+
+.donutstext {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.myrtle {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 260px;
+  width: 300px;
+}
+
+.myrtletext {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bedford {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 260px;
+  width: 300px;
+}
+
+.bedfordtext {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
