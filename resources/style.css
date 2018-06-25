@@ -10,7 +10,7 @@ h4 {
 h2 {
   font-family: Helvetica;
   opacity: 0.9;
-  font-size: 26px;
+  font-size: 32px;
   color: seashell;
 }
 
@@ -61,7 +61,7 @@ a:link {
 /* Our Mission Section*/
 
 .ourmission {
-  padding-top: 100px;
+  padding-top: 80px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -69,7 +69,7 @@ a:link {
   height: 700px;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: auto;
 }
 
 .ourmission .text {
@@ -80,6 +80,7 @@ a:link {
   text-align: center;
   height: 100px;
   width: 1200px;
+  margin-bottom: 50px;
 }
 
 .text .one {
@@ -102,6 +103,7 @@ a:link {
   padding-top: 50px;
   max-width: 1000px;
   max-height: 1000px;
+  padding-bottom: 30px;
 }
 
 .thumbnails {
@@ -212,4 +214,51 @@ a:link {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.locations {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  width: 1200px;
+  border: 1px solid white;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.localtext {
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  border: 1px solid white;
+}
+
+.downtown, .bayside, .oakdale {
+  display: flex;
+  margin: 20px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 250px;
+  background-color: black;
+  padding-bottom: 30px;
+}
+
+.downtown h4 {
+  margin: 10px;
+}
+
+.bayside h4 {
+  margin: 10px;
+}
+
+
+.oakdale h4 {
+  margin: 10px;
 }
