@@ -223,42 +223,44 @@ a:link {
   align-items: center;
   height: 500px;
   width: 1200px;
-  border: 1px solid white;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: cover;
 }
 
 .localtext {
-  padding-top: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
-  border: 1px solid white;
+}
+
+.localtext h2 {
+  padding: 0;
+  margin-top: 80px;
 }
 
 .downtown, .bayside, .oakdale {
+  padding: 5px;
   display: flex;
   margin: 20px;
+  margin-bottom: 70px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 300px;
   height: 250px;
   background-color: black;
-  padding-bottom: 30px;
 }
 
 .downtown h4 {
-  margin: 10px;
+  margin: 15px;
 }
 
 .bayside h4 {
-  margin: 10px;
+  margin: 15px;
 }
 
-
 .oakdale h4 {
-  margin: 10px;
+  margin: 15px;
 }
